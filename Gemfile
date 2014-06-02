@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'nokogiri', '1.6.1'
+gem 'nokogumbo', '1.1.5'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.0'
