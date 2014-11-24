@@ -12,3 +12,4 @@ current_version = File.expand_path(__FILE__).scan(/\d{10,}/).map(&:to_i)[0] || -
 conn = Redis.new(host: host, port: port)
 conn.set "release_version", current_version
 
+HardWorker.perform_async('bob', 5)
