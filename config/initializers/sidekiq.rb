@@ -45,5 +45,6 @@ Seppuqu.install
 #   end
 # end
 
-Seppuqu.update_release_version
-# Sidekiq.redis {|c| c.set "release_version", Sidekiq.current_release_version }
+# Seppuqu.update_release_version
+puts "Sidekiq.current_release_version = #{Sidekiq.current_release_version}"
+Sidekiq.redis {|c| c.set "release_version", Sidekiq.current_release_version }
