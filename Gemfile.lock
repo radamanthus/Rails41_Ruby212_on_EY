@@ -1,3 +1,10 @@
+GIT
+  remote: git@github.com:radamanthus/seppuqu.git
+  revision: 71c956ce737723ecd76241cddf8f3c4b1042ad97
+  specs:
+    seppuqu (0.0.1)
+      sidekiq
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -135,6 +142,7 @@ DEPENDENCIES
   rails (= 4.1.0)
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
+  seppuqu!
   sidekiq
   spring
   turbolinks
